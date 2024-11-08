@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB27E5082CDE7085007B9CF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB27E5072CDE7085007B9CF0 /* AppDelegate.swift */; };
+		FB27E50A2CDE7085007B9CF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB27E5092CDE7085007B9CF0 /* SceneDelegate.swift */; };
+		FB27E50C2CDE7085007B9CF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB27E50B2CDE7085007B9CF0 /* ViewController.swift */; };
+		FB27E50F2CDE7085007B9CF0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FB27E50E2CDE7085007B9CF0 /* Base */; };
+		FB27E5112CDE7086007B9CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB27E5102CDE7086007B9CF0 /* Assets.xcassets */; };
+		FB27E5142CDE7086007B9CF0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FB27E5132CDE7086007B9CF0 /* Base */; };
+		FB27E51F2CDE7086007B9CF0 /* Pantallas_Monster_highTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB27E51E2CDE7086007B9CF0 /* Pantallas_Monster_highTests.swift */; };
+		FB27E5292CDE7086007B9CF0 /* Pantallas_Monster_highUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB27E5282CDE7086007B9CF0 /* Pantallas_Monster_highUITests.swift */; };
+		FB27E52B2CDE7086007B9CF0 /* Pantallas_Monster_highUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB27E52A2CDE7086007B9CF0 /* Pantallas_Monster_highUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB27E51B2CDE7086007B9CF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB27E4FC2CDE7085007B9CF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB27E5032CDE7085007B9CF0;
+			remoteInfo = "Pantallas Monster high";
+		};
+		FB27E5252CDE7086007B9CF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB27E4FC2CDE7085007B9CF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB27E5032CDE7085007B9CF0;
+			remoteInfo = "Pantallas Monster high";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB27E5042CDE7085007B9CF0 /* Pantallas Monster high.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pantallas Monster high.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB27E5072CDE7085007B9CF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB27E5092CDE7085007B9CF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB27E50B2CDE7085007B9CF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB27E50E2CDE7085007B9CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB27E5102CDE7086007B9CF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB27E5132CDE7086007B9CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB27E5152CDE7086007B9CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB27E51A2CDE7086007B9CF0 /* Pantallas Monster highTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pantallas Monster highTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB27E51E2CDE7086007B9CF0 /* Pantallas_Monster_highTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantallas_Monster_highTests.swift; sourceTree = "<group>"; };
+		FB27E5242CDE7086007B9CF0 /* Pantallas Monster highUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pantallas Monster highUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB27E5282CDE7086007B9CF0 /* Pantallas_Monster_highUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantallas_Monster_highUITests.swift; sourceTree = "<group>"; };
+		FB27E52A2CDE7086007B9CF0 /* Pantallas_Monster_highUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantallas_Monster_highUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB27E5012CDE7085007B9CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB27E5172CDE7086007B9CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB27E5212CDE7086007B9CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB27E4FB2CDE7085007B9CF0 = {
+			isa = PBXGroup;
+			children = (
+				FB27E5062CDE7085007B9CF0 /* Pantallas Monster high */,
+				FB27E51D2CDE7086007B9CF0 /* Pantallas Monster highTests */,
+				FB27E5272CDE7086007B9CF0 /* Pantallas Monster highUITests */,
+				FB27E5052CDE7085007B9CF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB27E5052CDE7085007B9CF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB27E5042CDE7085007B9CF0 /* Pantallas Monster high.app */,
+				FB27E51A2CDE7086007B9CF0 /* Pantallas Monster highTests.xctest */,
+				FB27E5242CDE7086007B9CF0 /* Pantallas Monster highUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB27E5062CDE7085007B9CF0 /* Pantallas Monster high */ = {
+			isa = PBXGroup;
+			children = (
+				FB27E5072CDE7085007B9CF0 /* AppDelegate.swift */,
+				FB27E5092CDE7085007B9CF0 /* SceneDelegate.swift */,
+				FB27E50B2CDE7085007B9CF0 /* ViewController.swift */,
+				FB27E50D2CDE7085007B9CF0 /* Main.storyboard */,
+				FB27E5102CDE7086007B9CF0 /* Assets.xcassets */,
+				FB27E5122CDE7086007B9CF0 /* LaunchScreen.storyboard */,
+				FB27E5152CDE7086007B9CF0 /* Info.plist */,
+			);
+			path = "Pantallas Monster high";
+			sourceTree = "<group>";
+		};
+		FB27E51D2CDE7086007B9CF0 /* Pantallas Monster highTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB27E51E2CDE7086007B9CF0 /* Pantallas_Monster_highTests.swift */,
+			);
+			path = "Pantallas Monster highTests";
+			sourceTree = "<group>";
+		};
+		FB27E5272CDE7086007B9CF0 /* Pantallas Monster highUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB27E5282CDE7086007B9CF0 /* Pantallas_Monster_highUITests.swift */,
+				FB27E52A2CDE7086007B9CF0 /* Pantallas_Monster_highUITestsLaunchTests.swift */,
+			);
+			path = "Pantallas Monster highUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB27E5032CDE7085007B9CF0 /* Pantallas Monster high */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB27E52E2CDE7086007B9CF0 /* Build configuration list for PBXNativeTarget "Pantallas Monster high" */;
+			buildPhases = (
+				FB27E5002CDE7085007B9CF0 /* Sources */,
+				FB27E5012CDE7085007B9CF0 /* Frameworks */,
+				FB27E5022CDE7085007B9CF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pantallas Monster high";
+			productName = "Pantallas Monster high";
+			productReference = FB27E5042CDE7085007B9CF0 /* Pantallas Monster high.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB27E5192CDE7086007B9CF0 /* Pantallas Monster highTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB27E5312CDE7086007B9CF0 /* Build configuration list for PBXNativeTarget "Pantallas Monster highTests" */;
+			buildPhases = (
+				FB27E5162CDE7086007B9CF0 /* Sources */,
+				FB27E5172CDE7086007B9CF0 /* Frameworks */,
+				FB27E5182CDE7086007B9CF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB27E51C2CDE7086007B9CF0 /* PBXTargetDependency */,
+			);
+			name = "Pantallas Monster highTests";
+			productName = "Pantallas Monster highTests";
+			productReference = FB27E51A2CDE7086007B9CF0 /* Pantallas Monster highTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB27E5232CDE7086007B9CF0 /* Pantallas Monster highUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB27E5342CDE7086007B9CF0 /* Build configuration list for PBXNativeTarget "Pantallas Monster highUITests" */;
+			buildPhases = (
+				FB27E5202CDE7086007B9CF0 /* Sources */,
+				FB27E5212CDE7086007B9CF0 /* Frameworks */,
+				FB27E5222CDE7086007B9CF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB27E5262CDE7086007B9CF0 /* PBXTargetDependency */,
+			);
+			name = "Pantallas Monster highUITests";
+			productName = "Pantallas Monster highUITests";
+			productReference = FB27E5242CDE7086007B9CF0 /* Pantallas Monster highUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB27E4FC2CDE7085007B9CF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FB27E5032CDE7085007B9CF0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FB27E5192CDE7086007B9CF0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FB27E5032CDE7085007B9CF0;
+					};
+					FB27E5232CDE7086007B9CF0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FB27E5032CDE7085007B9CF0;
+					};
+				};
+			};
+			buildConfigurationList = FB27E4FF2CDE7085007B9CF0 /* Build configuration list for PBXProject "Pantallas Monster high" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB27E4FB2CDE7085007B9CF0;
+			productRefGroup = FB27E5052CDE7085007B9CF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB27E5032CDE7085007B9CF0 /* Pantallas Monster high */,
+				FB27E5192CDE7086007B9CF0 /* Pantallas Monster highTests */,
+				FB27E5232CDE7086007B9CF0 /* Pantallas Monster highUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB27E5022CDE7085007B9CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB27E5112CDE7086007B9CF0 /* Assets.xcassets in Resources */,
+				FB27E5142CDE7086007B9CF0 /* Base in Resources */,
+				FB27E50F2CDE7085007B9CF0 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB27E5182CDE7086007B9CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB27E5222CDE7086007B9CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB27E5002CDE7085007B9CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB27E50C2CDE7085007B9CF0 /* ViewController.swift in Sources */,
+				FB27E5082CDE7085007B9CF0 /* AppDelegate.swift in Sources */,
+				FB27E50A2CDE7085007B9CF0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB27E5162CDE7086007B9CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB27E51F2CDE7086007B9CF0 /* Pantallas_Monster_highTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB27E5202CDE7086007B9CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB27E52B2CDE7086007B9CF0 /* Pantallas_Monster_highUITestsLaunchTests.swift in Sources */,
+				FB27E5292CDE7086007B9CF0 /* Pantallas_Monster_highUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB27E51C2CDE7086007B9CF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB27E5032CDE7085007B9CF0 /* Pantallas Monster high */;
+			targetProxy = FB27E51B2CDE7086007B9CF0 /* PBXContainerItemProxy */;
+		};
+		FB27E5262CDE7086007B9CF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB27E5032CDE7085007B9CF0 /* Pantallas Monster high */;
+			targetProxy = FB27E5252CDE7086007B9CF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB27E50D2CDE7085007B9CF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB27E50E2CDE7085007B9CF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB27E5122CDE7086007B9CF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB27E5132CDE7086007B9CF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB27E52C2CDE7086007B9CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB27E52D2CDE7086007B9CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB27E52F2CDE7086007B9CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pantallas Monster high/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DDMI.Pantallas-Monster-high";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB27E5302CDE7086007B9CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pantallas Monster high/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DDMI.Pantallas-Monster-high";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB27E5322CDE7086007B9CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DDMI.Pantallas-Monster-highTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pantallas Monster high.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pantallas Monster high";
+			};
+			name = Debug;
+		};
+		FB27E5332CDE7086007B9CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DDMI.Pantallas-Monster-highTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pantallas Monster high.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pantallas Monster high";
+			};
+			name = Release;
+		};
+		FB27E5352CDE7086007B9CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DDMI.Pantallas-Monster-highUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pantallas Monster high";
+			};
+			name = Debug;
+		};
+		FB27E5362CDE7086007B9CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DDMI.Pantallas-Monster-highUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pantallas Monster high";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB27E4FF2CDE7085007B9CF0 /* Build configuration list for PBXProject "Pantallas Monster high" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB27E52C2CDE7086007B9CF0 /* Debug */,
+				FB27E52D2CDE7086007B9CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB27E52E2CDE7086007B9CF0 /* Build configuration list for PBXNativeTarget "Pantallas Monster high" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB27E52F2CDE7086007B9CF0 /* Debug */,
+				FB27E5302CDE7086007B9CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB27E5312CDE7086007B9CF0 /* Build configuration list for PBXNativeTarget "Pantallas Monster highTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB27E5322CDE7086007B9CF0 /* Debug */,
+				FB27E5332CDE7086007B9CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB27E5342CDE7086007B9CF0 /* Build configuration list for PBXNativeTarget "Pantallas Monster highUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB27E5352CDE7086007B9CF0 /* Debug */,
+				FB27E5362CDE7086007B9CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB27E4FC2CDE7085007B9CF0 /* Project object */;
+}
